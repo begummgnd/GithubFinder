@@ -47,7 +47,8 @@ class App extends Component {
       alert: {msg,type}  //dışarıdan tanımlanan obje ismi direk property adına da denk geliyor.
     })
   }
-  render() {
+  render()
+  {
     return (
       <div className="App">
         <Navbar />
